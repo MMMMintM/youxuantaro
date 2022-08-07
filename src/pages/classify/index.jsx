@@ -5,6 +5,7 @@
 import {Component} from "react";
 import {View} from "@tarojs/components";
 import TabBar from "../common/tabBar";
+import Details from "./detials"
 
 class Classify extends Component{
   componentWillReceiveProps (nextProps) {
@@ -23,7 +24,8 @@ class Classify extends Component{
   render() {
     return(
       <View>
-        <View>分类</View>
+        <Details></Details>
+        <View></View>
         <TabBar tabBarCurrent={1}></TabBar>
       </View>
     )
