@@ -11,29 +11,24 @@ import Taro from "@tarojs/taro";
 class TabBar extends Component {
 
   handleClick (value) {
-    console.log(value)
     switch (value){
       case 0:
-        console.log("我的")
         Taro.reLaunch({
           url:'/pages/index/index'
         });
         break;
       case 1:
-        console.log("分类")
         Taro.reLaunch({
           url:'/pages/classify/index'
         });
 
         break;
       case 2:
-        console.log("购物车")
         Taro.reLaunch({
           url:'/pages/shopping/index'
         });
         break;
       case 3:
-        console.log("我的")
         Taro.reLaunch({
           url:'/pages/user/index'
         });
