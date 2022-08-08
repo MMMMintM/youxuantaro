@@ -1,6 +1,6 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/index/index',
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -12,7 +12,8 @@ export default defineAppConfig({
     {
       "root":"pages/classify/",
       "pages":[
-        "index"
+        "index",
+        "details"
       ]
     },
     {
