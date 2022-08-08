@@ -5,7 +5,8 @@
 import {Component} from "react";
 import {View} from "@tarojs/components";
 import TabBar from "../common/tabBar";
-import Details from "./detials"
+// import Details from "./details"
+import Jump from "./jump"
 
 class Classify extends Component{
   componentWillReceiveProps (nextProps) {
@@ -24,8 +25,8 @@ class Classify extends Component{
   render() {
     return(
       <View>
-        <Details></Details>
-        <View></View>
+        <Jump></Jump>
+        {/*<Details></Details>*/}
         <TabBar tabBarCurrent={1}></TabBar>
       </View>
     )

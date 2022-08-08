@@ -32,11 +32,28 @@
 }
 .buyField{
   position: fixed;
-  bottom: 120px;
+  bottom: 0px;
   width: 100%;
   height: 100px;
   vertical-align: bottom;
 }
+
+.homeAndCart{
+  position: relative;
+  float: left;
+  width: 35%;
+  height: 100%;
+  //font-size: small;
+  border-radius: 20px;
+}
+.homeOption{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
 .addAndBuy{
   background-color: aqua;
   position: relative;
@@ -44,6 +61,7 @@
   width: 60%;
   height: 100%;
   border-radius: 20px;
+
 }
 .buyOption{
   position: relative;
