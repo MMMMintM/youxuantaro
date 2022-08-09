@@ -1,12 +1,14 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/index/index',
+
   ],
   window: {
-    backgroundTextStyle: 'light',
+    backgroundTextStyle: 'dark',
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black'
+    navigationBarTextStyle: 'black',
+    enablePullDownRefresh:true
   },
   subPackages:[
     {
@@ -28,4 +30,5 @@ export default defineAppConfig({
       ]
     },
   ]
+
 })
